@@ -19,9 +19,9 @@ import androidx.fragment.app.Fragment;
  * Une simple sous-classe de {@link Fragment}.
  */
 public class smsFragment extends Fragment {
+    public EditText ED_message;
     // Déclaration des variables
     private EditText ED_num_tel;
-    public EditText ED_message;
     private Button BT_envoyer;
 
 
